@@ -1,0 +1,10 @@
+import random  # Importa o módulo 'random' para realizar sorteios/seleções aleatórias
+
+# Cria uma sequência de números de 1 até 60 (o segundo parâmetro do range é exclusivo)
+mega_sena_numbers = range(1, 61)
+
+# Sorteia 6 números distintos (sem repetição) da sequência definida acima
+numbers = random.sample(mega_sena_numbers, 6)
+
+# Exibe no terminal a lista com os 6 números sorteados
+print(numbers)
